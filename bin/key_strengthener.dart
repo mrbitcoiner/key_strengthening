@@ -9,6 +9,7 @@ void main() {
   // You can change X and Y value to increase or decrease rounds (x) or increase string size (y)
   // X = 100 ; Y = 12 -> ~1.6 MB string
   // X = 100 ; Y = 13 -> ~3,2 MB string
+  // X = 100 ; Y = 15 -> ~12,8 MB string
   // X = 23 ; Y = 22 -> ~1.6 GB string
   int x = 100;
   int y = 12;
