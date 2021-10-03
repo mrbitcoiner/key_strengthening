@@ -8,11 +8,15 @@
 ```bash
 cd key_strengthener
 ```
-
-```bash
-dart pub add crypto
-```
 * To run:
 ```bash
 dart run
+```
+* Want to compile and generate a native binary?
+```bash
+mkdir build/ && dart compile exe bin/key_strengthener.dart -o build/key_strengthener
+```
+* To execute the binary:
+```bash
+build/key_strengthener
 ```
